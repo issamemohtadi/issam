@@ -36,7 +36,7 @@ if ($('#powered')['length'] !== 0) {
 } else {
     destory()
 };
-if (Link['indexOf']('post-preview') == -1 && Link['indexOf']('www.blogger') == -1 && Link['indexOf']('b/preview') == -1 && Link['indexOf']('template-editor') == -1 && Loct['indexOf']('mak4sat.blogspot.com') == -1 && Loct['indexOf']('th3ti9nitech.blogspot.com') == -1 && Loct['indexOf']('rneheheheh2g2g2gg.blogspot.com') == -1) {
+if (Link['indexOf']('post-preview') == -1 && Link['indexOf']('www.blogger') == -1 && Link['indexOf']('b/preview') == -1 && Link['indexOf']('template-editor') == -1 && Loct['indexOf']('mak4sat.blogspot.com') == -1 && Loct['indexOf']('th3ti9nitech.blogspot.com') == -1 && Loct['indexOf']('huggigyggng.blogspot.com') == -1) {
     redirect()
 }
 
