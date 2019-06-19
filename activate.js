@@ -1,45 +1,7 @@
-<script type='text/javascript'>
+<script type="text/javascript">
 //<![CDATA[
-
-
-function destory() {
-    $('html')['html']('عفواً ، لن يمكنك إستخدام الموقع .. هذا التوقف يحدث تلقائياً بعد العبث بحقوق ملكية التصميم ');
-    setTimeout(function () {
-        window['location']['assign']('https://adse-blogger.blogspot.com')
-    }, 5000)
-}
-function redirect() {
-    $('html')['html']('نأسف ولكن لا تملك رخصة إستخدام هذا القالب تواصل ما صاحب القالب <a href=\https://facebook.com/ti9niway\>من هنا</a> للحصول على تفعيل القالب');
-    setTimeout(function () {
-        window['location']['assign']('https://ads8you.blogspot.com')
-    }, 2000e3)
-}
-var Loct = window['location']['hostname']['toLowerCase']();
-var Link = window['location']['href']['toLowerCase']();
-var Cont = '';
-var Cont2 = '';
-  Cont += '<a href=\'https://www.ti9niway.com\' target=\'_blank\'>تصميم : عصام مهتدي</a>';
-if ($('#powered')['length'] !== 0) {
-    if (Loct['indexOf']('xfost') != -1) {
-        $('#powered')['addClass']('impo')['append'](Cont2)
-    } else {
-        $('#powered')['addClass']('impo')['append'](Cont)
-    };
-    $('footer')['addClass']('impo');
-    setInterval(function () {
-        $('.impo')['each'](function () {
-            if ($(this)['css']('opacity') < 1 || $(this)['css']('visibility') == 'hidden' || $(this)['is'](':hidden')) {
-                destory()
-            }
-        })
-    }, 5000)
-} else {
-    destory()
-};
-if (Link['indexOf']('post-preview') == -1 && Link['indexOf']('www.blogger') == -1 && Link['indexOf']('b/preview') == -1 && Link['indexOf']('template-editor') == -1 && Loct['indexOf']('mak4sat.blogspot.com') == -1 && Loct['indexOf']('th3ti9nitech.blogspot.com') == -1 && Loct['indexOf']('huggigyggng.blogspot.com') == -1) {
-    redirect()
-}
-
-
+$(document).ready(function() {
+var idBlog= "4322989602444869935"; // معرف المدونة التي وضعت عليها لوحة التفعيل
+$(function(){"use strict";$.ajax({dataType:"json",url:"https://www.blogger.com/feeds/"+idBlog+"/posts/default?alt=json-in-script",method:"GET",dataType:"jsonp",success:function(e){var t;for(t=0;t<e.feed.entry.length;t+=1){var n=$(e.feed.entry[t].content.$t);if(0===t&&!$("body").hasClass("error_page")){for(var o=n.find("li"),d=[],a=0;a<o.length;a+=1)d.push($(o[a]).text());var r,i=window.location.hostname.toLowerCase(),f=window.location.href.toLowerCase(),s=d.length-1;for(r=0;r<d.length;r+=1){if(-1!=i.indexOf(d[r])){var l=$(e.feed.entry[t].content.$t).find("script"),p=$(e.feed.entry[t].content.$t).find("style");$("head").append(p),$("head").append(l);break}r==s&&-1==f.indexOf("post-preview")&&-1==f.indexOf("www.blogger")&&-1==f.indexOf("b/layout-preview")&&-1==f.indexOf("b/preview")&&-1==f.indexOf("translate.google")&&-1==f.indexOf("webcache.googleusercontent")&&-1==f.indexOf("template-editor")&&$("html").html(n.find(".redirect").html())}}if(1===t){p=$(e.feed.entry[t].content.$t).find("style");$("head").append(p)}}}})});});
 //]]>
 </script>
