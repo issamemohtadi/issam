@@ -25,18 +25,8 @@ beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,
 ! Popup/Popunder/Clickunder
 egyanime.com,egydead.com#$#abort-on-property-write _pop
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.co,lodynet.tv,rotana.video#$#abort-on-property-read decodeURIComponent
-cima-club.cc,egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.com,egybest.cool,egybest.fail,egybest.life,egybest.ltd,egybest.ist,egybest.name,egybest.net,egybest.network,egybest.ninja,egybest.nl,egybest.online,egybest.org,egybest.pw,egybest.rocks,egybest.site,egybest.xyz,egybest.zone,egybest2.com,iegy.best#$#abort-on-property-read open
+egy.best,egybest.*,vidstream.*,~vidstream.pro##+js(nowoif, !api?call=, 10, obj)
 arabseed.me,baramjak.com,egynow.live,hawak.net,movizland.com,movizland.online,egyanime.com,egydead.com#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
-
-
-! https://github.com/NanoAdblocker/NanoFilters/issues/373
-egy.best,egybest.*##+js(acis, Math, XMLHttpRequest)
-
-! Workaround for https://github.com/uBlockOrigin/uAssets/issues/8319
-egy.best,egybest.*##+js(nostif, WinMsgHtml)
-||psaiceex.net^
-
-
 ! #CV-754
 akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/bulgarian.txt ***
