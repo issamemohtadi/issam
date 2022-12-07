@@ -9,7 +9,7 @@ if(Ch === 'bein-sport-max1'){live+='https://serv1.yalla-live.cc/2022/11/bein-spo
 if(Ch === '1bein-sport-max1'){live+='https://serv1.yalla-live.cc/2022/11/1bein-sport-max1.html';}
 /*- bein-sport-max2 -*/
 if(Ch === 'bein-sport-max2'){live+='https://serv1.yalla-live.cc/2022/11/bein-sport-max2.html';}
-if(Ch === '1bein-sport-max2'){live+='https://9issasriwayat01.blogspot.com/p/blog-page_3.html';}
+if(Ch === '1bein-sport-max2'){live+='https://serv1.yalla-live.cc/2022/11/1bein-sport-max2.html';}
 /*- alkass 1 -*/
 if(Ch === 'alkass1'){live+='https://serv1.yalla-live.cc/2022/11/alkass1.html';}
 if(Ch === '1alkass1'){live+='https://serv1.yalla-live.cc/2022/11/1alkass1.html';}
