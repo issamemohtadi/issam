@@ -1,23 +1,8 @@
-[
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=wecima.tube&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
-        "fileSize": 19538,
-        "status": 1,
-        "language": "ar",
-        "authors": [
-            "ImZaw"
-        ],
-        "tvTypes": [
-            "TvSeries",
-            "Movie",
-            "Anime"
-        ],
-        "version": 8,
-        "internalName": "MyCimaProvider",
-        "url": "https://codeberg.org/Mark_Eshia/arab/raw/branch/builds/MyCimaProvider.cs3",
-        "name": "MyCimaProvider"
-    }
-    
-]
+{
+    "name": "Arabic providers repository",
+    "description": "Cloudstream Arabic Plugin Repository",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://codeberg.org/Mark_Eshia/arab/raw/branch/builds/plugins.json"
+    ]
+}
